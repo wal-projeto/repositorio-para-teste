@@ -55,3 +55,6 @@ APARECERA UMA MENSAGEM NO TERMINAL ASSIM:
 Already up to date.
 <br>
 E DEPOIS JÁ POSSO FAZER O MEU (PUSH) E SUBIR AS MINHAS ALTERACOES NO PROJETO LA NO GITHUB
+
+<br> 
+Agora estou alterando esse arquivo aqui no GitHub  como esse texto para poder aprender como baixalo atraves do pull e depois alterar o arquivo no meu repositorio local e depois subir novamente.
