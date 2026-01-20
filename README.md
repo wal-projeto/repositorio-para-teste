@@ -47,8 +47,11 @@ To https://github.com/wal-projeto/repositorio-para-teste.git
 
 COM ISSO NOSSA PASTA FOI CARREGADA PARA O GITHUB
 
-OBS: SE EU ESTIVER EM UM PROJETO COM MAIS PESSOAS, DEPOIS DE FAZER O MEU (COMMIT -M " ") é IMPORTANTE FAZER UM:<br>
-(PULL ORIGIN MASTER) PARA ATUALIZAR O REPOSITORIO LOCAL COM AS ALTERACOES MAIS RECENTES DO REPOSITORIO REMOTO DO GITHUB . É feito um fetch das atualizacoes no repositorio remoto e em seguida faz um merge com a branch atual do repositorio local, incorporando as alteracoes realizadas pelo demais colaboradores
+SE EU ESTIVER EM UM PROJETO COM MAIS PESSOAS LÁ NO GITHUB, POIS DE FAZER O MEU (COMMIT -M " ") 
 <br>
- E DEPOIS FAZER O MEU (PUSH) E SUBIR AS MINHAS ALTERACOES DO 
-PROJETO
+é IMPORTANTE FAZER UM: (PULL ORIGIN MASTER) PARA ATUALIZAR O REPOSITORIO LOCAL COM AS ALTERACOES MAIS RECENTES DO REPOSITORIO REMOTO DO GITHUB . É feito um fetch das atualizacoes no repositorio remoto e em seguida faz um merge com a branch atual do repositorio local, incorporando as alteracoes realizadas pelos demais colaboradores
+APARECERA UMA MENSAGEM NO TERMINAL ASSIM:
+* branch   master   -> FETCH_HEAD
+Already up to date.
+<br>
+E DEPOIS JÁ POSSO FAZER O MEU (PUSH) E SUBIR AS MINHAS ALTERACOES NO PROJETO LA NO GITHUB
