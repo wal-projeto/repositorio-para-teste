@@ -36,7 +36,8 @@ com esse comando estamos linkando esse repositorio criado na maquina(repositorio
 
 -->>> git push -u origin main  <<---
  com esse comando carregamos os aquivos do repositorio da maquina para o repositorio do github(que no caso de momento e so o arquivo readme.md)
- APARECERA ESSA MENSAGEM:
+ 
+APARECERA ESSA MENSAGEM:
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 250 bytes | 125.00 KiB/s, done.
@@ -45,3 +46,7 @@ To https://github.com/wal-projeto/repositorio-para-teste.git
  * [new branch]      master -> master
 
 COM ISSO NOSSA PASTA FOI CARREGADA PARA O GITHUB
+
+OBS: SE EU ESTIVER EM UM PROJETO COM MAIS PESSOAS, SEPOIS DE FAZER O MEU (COMMIT -M " ") E IMPORTANTE FAZER UM
+(PULL ORIGIN MASTER) PARA BAIXAR AS ALTERACOES DOS OUTROS USUARIOS E DEPOIS FAZER O MEU (PUSH) E SUBIR AS MINHAS ALTERACOES DO 
+PROJETO
