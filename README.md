@@ -105,3 +105,48 @@ abrir a pasta e ja terei acesso ao arquivo read.md
 git add .
 git commit -m "nome do comite" (pode ser que depois desse comando ele peça o git config --global user.email "" e o user.name)
 git push origin main (com isso as alterações ja estarão no GitHub )
+
+
+AGORA VAMOS SABER SOBRE O GIT LOG: 
+arquivos jpg : 
+GitLog - descricao dos comandos;
+
+GitLog_comando q - mostra o historico de acoes realizadas no repositorio com Posicao Atual, Autor e data, Mensagem do commit e Identificacao do commit; 
+
+GitLog_depois de um git push - a imagem descreve que  no HEAD ->main (respositorio local) fizemos um commit , e que no repositorio remoto  HEAD -> main, origin/mai, esse commit esta 
+atualizado
+
+GitLog remoto nao esta atualizado1 - a imagem mostra que fiz 2
+commit no repositorio local:
+ Adicionando sobrenome no arquivo1 (HEAD -> main) 
+ Adicionando outro arquivo"  (HEAD -> main) 
+
+O git log serve para mostrar Ao fazer um que tenho esses 2 commits e que eles estão a frente do ultimo commit remoto no gitHub (origin/main) "Adicionando o arquivo1 com meu primeiro nome" 
+
+Depois é feito um git push para atualizar o Github 
+
+GitLod- Repositorio remoto ATUALIZADO - 
+a imagem mostra depois do comando git log que, os 3 comites ja estão atualizados no repositorio remoto, no GitHub:
+
+(HEAD -> main, origin/mai) 
+
+isso significa que os 2 repositorio estao iguais, estao com os mesmos comites.
+
+
+Git log--online -  ele resume em cada linha os historico dos nomes dos comites
+
+Git log--stat - exibe uma estatistica de quais arquivos foram alterados
+
+OBS: eu posso combinar os dois comandos:
+ git log --online --stat
+
+git log -p - exibe as alteracoes feitas em cada comit . para sair dos logs clico na letra "q"
+
+git log --author - pesquiso na linha do tempo atraves de um autor de algum comit, e ele lista o que busquei
+
+git log--grep - pesquiso atraves de uma linha do tempo de algum texto de um comite, ele listara so os comites que tenha o texto buscado
+
+git log --graph -  exibe todos os comites com uma linha do 
+tempo para melhor entendimento
+
+Git Log - Conclusao - a imagem mostra quando um comite esta a frente de outro
